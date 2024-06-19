@@ -7,7 +7,7 @@ console.log(holidays);
 
 console.log('★for文');
 // 1～10までの数値を順番に出力する
-for (let i = 0; i <= holidays.length; i++) {
+for (let i = 0; i < holidays.length; i++) {
 
   // 配列の要素を出力する
   console.log(holidays[i]);
