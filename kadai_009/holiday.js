@@ -6,7 +6,7 @@ console.log(holidays);
 
 
 console.log('★for文');
-// 1～10までの数値を順番に出力する
+// 配列の要素数分繰り返す
 for (let i = 0; i < holidays.length; i++) {
 
   // 配列の要素を出力する
@@ -17,13 +17,13 @@ for (let i = 0; i < holidays.length; i++) {
 i = 0;
 
 console.log('★while文');
-// 変数numの値が0以外である間、変数numの値を出力し続ける
+// 配列の要素数分繰り返す
 while (i < holidays.length) {
 
   // 配列の要素を出力する
   console.log(holidays[i]);
 
-  // 変数iに0～4までのランダムな整数を再代入する
+  // インクリメント
   i++ ;
 
 }
